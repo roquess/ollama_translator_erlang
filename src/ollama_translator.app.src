@@ -1,0 +1,13 @@
+{application, ollama_translator, [
+    {description, "A library for translating text to different natural languages using Ollama."},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache-2.0"]},
+    {links, [{"GitHub", "https://github.com/roquess/ollama_translator"}]}
+ ]}.
