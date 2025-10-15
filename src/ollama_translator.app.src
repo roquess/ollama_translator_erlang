@@ -1,6 +1,6 @@
 {application, ollama_translator, [
     {description, "A library for translating text to different natural languages using Ollama."},
-    {vsn, "0.1.3"},
+    {vsn, "0.1.4"},
     {registered, []},
     {applications, [
         kernel,
