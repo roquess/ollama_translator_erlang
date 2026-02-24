@@ -127,15 +127,13 @@ Config = #{
 
 ## Prerequisites
 
-- Erlang/OTP 21+
+- Erlang/OTP 27+
 - Running Ollama instance
-- `jsx` dependency for JSON handling
 - `inets` application for HTTP requests
 
 ## Dependencies
 
 This library requires:
-- `jsx` for JSON encoding/decoding
 - `inets` (part of OTP) for HTTP client
 
 Add to your `rebar.config`:
